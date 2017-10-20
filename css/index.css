@@ -1,0 +1,437 @@
+/*CSS for index page*/
+
+.nav {
+  width:100%;
+  height:50px;
+  background-color:white;
+}
+
+li {
+  float:right;
+  color:black;
+  padding-top:10px;
+  padding-right:20px;
+  padding-left:20px;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.navlink {
+	padding: 3px;
+}
+
+h1 {
+  text-align:left;
+  float:left;
+  padding-left:50px;
+  color: #001a33;
+  font-size: 36px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.container {
+  width: 975px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 23px;
+  font-family: candara;
+}
+
+.header {
+  width:100%;
+  height:560px;
+  background-image:url('../images/background.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  font-size: 18px;
+  text-align:center;
+  color: white;
+  margin-bottom: 120px;
+  margin-top: 50px;
+}
+
+
+h2 {
+  text-align: center;
+  color: #00264d;
+  font-size: 40px;
+  padding-top: 80px;
+
+}
+
+.quote {
+text-align: center;
+  color: #00264d;
+  font-size: 50px;
+  padding-top: 20px;
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.section {
+  width:100%;
+  background-color:white;
+  padding-bottom:80px;
+  overflow:hidden;
+}
+
+#about {
+}
+
+#inspirations {
+
+}
+
+#contact {
+
+}
+
+
+.image-desc {
+  font-size:0.7em;
+  font-color:#000d1a;
+  float:right;
+}
+
+.footer {
+  width:100%;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size:0.9em;
+  text-align:center;
+  background-color: #ffe0cc;
+}
+
+
+.footer p {
+  color: #00264d;
+  margin-top: 10px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.para {
+	width: 400px;
+	float: right;
+	height: auto;
+	color: #001a33;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.tag {
+	display: inline-block;
+	padding: 4px 8px;
+	background: rgba(0, 26, 51, 0.15);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.6em;
+	border-radius: 8px;
+}
+
+.play {
+	padding-left: 10px;
+
+}
+
+.play:hover {
+	background-color: white;
+	color: #001a33;
+}
+
+.title {
+	width: 400px;
+	float: right;
+	height: auto;
+	color: #001a33;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.profile-para{
+	width: 400px;
+	float: left;
+	height: auto;
+	color: #001a33;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.profile-para-head{
+	width: 400px;
+	float: left;
+	height: auto;
+	color: #001a33;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.links {
+	width: 400px;
+	float: left;
+	height: auto;
+	color: #001a33;
+	font-family: 'Oxygen', sans-serif;
+	text-decoration: none;
+	text-align:right;
+}
+
+.demo {
+	width: 400px;
+	float: right;
+	height: auto;
+	color: #001a33;
+	font-family: 'Oxygen', sans-serif;
+	text-decoration: none;
+	text-align:right;
+}
+
+.link:link {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+	border: 1px solid #00264d;
+	padding: 7px;
+}
+
+.link:hover {
+	background-color: white;
+	color: #001a33;
+	border: 1px solid #00264d;
+	border-radius: 0px;
+}
+
+.profile-title{
+	width: 400px;
+	float: left;
+	height: auto;
+	color: #E580A2;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.project {
+	padding-top: 40px;
+	border-top: 1px solid #ffe0cc;
+}
+.project::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-bottom:5%;
+}
+
+.img {
+	float:left;
+	border-radius: 8px;
+}
+
+.profile {
+	float:right;
+	width: 450px;
+	height: auto;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.interest {
+	overflow:hidden;
+	float: left;
+	width: 310px;
+	margin-right: 15px;
+	margin-top: 30px;
+}
+
+p.interest-desc {
+  font-size:0.6em;
+  font-color:#000d1a;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.lion:link {
+	font-size:1em;
+  	font-color:#000d1a;
+	font-family: 'Oxygen', sans-serif;
+	text-decoration: underline;
+}
+
+.lion:hover {
+	background-color: white;
+	color: #001a33;
+	opacity: 0.5;
+}
+
+
+
+.interest-img {
+	width: 310px; 
+	height: 310px;
+	object-fit: cover;
+}
+
+.fa.fa-code {
+	font-size: 30px;
+	padding: 30px 30px 30px 12%;
+	color:#001a33;
+}
+
+.fa.fa-hashtag {
+	font-size: 30px;
+	padding: 30px 30px 30px 12%;
+	color:#001a33;
+}
+
+.fa.fa-puzzle-piece {
+	font-size: 30px;
+	padding: 30px 30px 30px 12%;
+	color:#001a33;
+}
+
+.fa.fa-envelope-open-o {
+	font-size: 30px;
+	padding: 30px 30px 30px 12%;
+	color:#001a33;
+}
+
+.fa.fa-github {
+	font-size: 30px;
+	padding: 20px;
+}
+
+.fa.fa-linkedin-square {
+	font-size: 30px;
+	padding: 20px;
+}
+
+.fa.fa-medium {
+	font-size: 30px;
+	padding: 20px;
+}
+
+.fa.fa-github:hover {
+	background-color: #ffe0cc;
+}
+
+.fa.fa-linkedin-square:hover {
+	background-color: #ffe0cc;
+}
+
+.fa.fa-medium:hover {
+	background-color: #ffe0cc;
+}
+
+.fa.fa-github-square {
+	font-size: 18px;
+}
+
+.fa.fa-youtube-play {
+	color: #DF0310;
+}
+
+.fa.fa-toggle-up {
+	float:right;
+	font-size: 15px;
+}
+
+.fa.fa-toggle-up:hover{
+	background-color: white;
+	color: #001a33;
+	opacity: 0.5;
+}
+
+.contact-area {
+	display: block;
+	text-align: center;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea, select {
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #E580A2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    width: 50%;
+    background-color: #E580A2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+a:link {
+	color: #001a33;
+	text-decoration: none;
+	font-family: candara;
+}
+
+a:visited {
+	color: #001a33;
+	text-decoration: none;
+  	font-family: candara;
+}
+
+
+a:hover {
+	color: white;
+	background-color: #ffe0cc;
+	opacity: 0.8;
+	border-radius: 15px;
+	transition:all 0.3s ease;
+}
+
+a:active {
+	color: black;
+	background-color: white;
+}

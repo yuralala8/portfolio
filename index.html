@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html id="home">
+  <meta charset="utf-8">
+  <head>
+  <title>
+    Yura Choi
+  </title>
+
+  <!-- External CSS for the main page -->
+    <link href="css/index.css" type="text/css" rel="stylesheet"/>
+
+  <!-- Scrolling Effect JS -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+
+  <!-- fontawesome -->
+  <script src="https://use.fontawesome.com/63341fdee6.js"></script>
+
+  <!-- Google Font -->
+
+  <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dosis|Oxygen|Pacifico" rel="stylesheet">
+
+  </head>
+
+
+  <body>
+    <div class="nav">
+      <h1>
+        Yura Choi
+      </h1>
+      <ul>
+        <li><a href="#contact" class="navlink">Contact</a></li>
+        <li><a href="#inspirations" class="navlink">Inspirations</a></li>
+        <li><a href="#work" class="navlink">Work</a></li>
+        <li><a href="#about" class="navlink">About</a></li>
+        <li><a href="#home" class="navlink">Home</a></li>
+      </ul>
+    </div>
+
+
+    <div class="header">
+      <div class="container">
+          <h2> de·vel·op </h2>
+          <h3> /dəˈveləp/ </h3>
+          <p>" grow or cause to grow and become more mature, advanced, or elaborate. "</p>
+      </div>
+    </div>
+  
+    <div class="section" id="about">
+      <div class="head">
+        <i class="fa fa-hashtag" aria-hidden="true"></i>
+      </div>
+      <div class="container">
+        <div class="project">
+          <a href="#home" class="toggle-up"><i class="fa fa-toggle-up" aria-hidden="true"></i></a>
+          <img src="images/yura.jpeg" alt="Yura" class="profile">
+
+          <p class="profile-title">
+            Hello World!
+          </p>
+
+          <p class="profile-para-head">
+            I'm Yura Choi, a full-stack web developer with a passion for delivering unique, personal experiences to people through technology. 
+          </p>
+
+          <p class="profile-para">
+            With background in early childhood education, mental health studies and psychological research, I bring strong skills in group dynamics, information synthesis, and creative insight that keep organizations moving culturally and entrepreneurially. When I'm not coding, I revel in painting (on any surface), playing my violin, and traveling. (Coding while traveling is especially fun!) 
+          </p>
+
+          <p class="links">
+            <a href="https://github.com/yuralala8" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+            <a href="https://www.linkedin.com/in/yura-choi/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+           
+            <a href="https://medium.com/@yurachoi" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="section" id="work">
+      <div class="head">
+        <i class="fa fa-code" aria-hidden="true"></i>
+      </div>
+        <div class="container">
+          <div class="project">
+          <img src="images/project1.gif" alt="Deck the Halls project" class="img">
+          <p class="title">
+            Deck the Halls 
+            <a href="https://youtu.be/YbRbgzoubHI" class="play" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </p>
+          <p class="para">
+           Prepare for this year’s holiday season by making a wish list and sharing it with friends. Generate a Secret Santa for all the party attendees and send out invitations.
+          </p>
+
+          <div class="para">
+            <p class="tag">React</p> 
+            <p class="tag">Redux</p>
+            <p class="tag">JavaScript</p>
+            <p class="tag">Ruby on Rails</p>
+            <p class="tag">Shop.com API</p>
+          </div>
+
+
+          <p class="demo">
+            <a href="https://github.com/yuralala8/deck-the-halls-front-end" target="_blank" class="link"><i class="fa fa-github-square" aria-hidden="true"></i> Front End</a>
+
+            <a href="https://github.com/yuralala8/deck-the-halls-back-end" target="_blank" class="link"><i class="fa fa-github-square" aria-hidden="true"></i> Back End</a>
+          </p>
+
+          </div>
+
+
+          <div class="project">
+          <img src="images/project2.gif" alt="Side Scroller game" class="img">
+          <p class="title">
+            Space Side Scroller
+            <a href="https://youtu.be/f074_qjDKbQ" class="play" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </p>
+            <p class="para">
+            Zoom through the space with this classic side-scrolling game. Win points by shooting bullets at enemy spaceships. As points accumulate, you just might encounter a boss or numerous asteroids!
+            </p>
+
+          <div class="para">
+            <p class="tag">JavaScript</p> 
+            <p class="tag">HTML Canvas</p>
+            <p class="tag">Ruby on Rails</p>
+          </div>
+
+
+          <p class="demo">
+            <a href="https://github.com/yuralala8/frontend-side-scroller" target="_blank" class="link"><i class="fa fa-github-square" aria-hidden="true"></i> Front End</a>
+
+            <a href="https://github.com/yuralala8/backend-side-scroller" target="_blank" class="link"><i class="fa fa-github-square" aria-hidden="true"></i> Back End</a>
+          </p>
+          </div>
+
+          <div class="project">
+          <img src="images/project3.gif" alt="Pair Pets app" class="img">
+          <p class="title">
+            Pair Pets
+            <a href="https://youtu.be/gzS6W0nt6J0" class="play" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          </p>
+          <p class="para">
+            Look for other pets in town and swipe if you are interested! Once your pet gets swiped back, the pets become matched and the owners will be able to send messages to each other. 
+          </p>
+
+          <div class="para">
+            <p class="tag">Ruby on Rails</p>
+          </div>
+
+
+          <p class="demo">
+            <a href="https://github.com/yuralala8/pair-pets" target="_blank" class="link"><i class="fa fa-github-square" aria-hidden="true"></i> Code </a>
+          </p>
+          </div>
+        </div>
+    </div>
+
+    <div class="section" id="inspirations">
+      <div class="head">
+        <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+      </div>
+      <div class="container">
+        <div class="project">
+
+          <a href="#home" class="toggle-up"><i class="fa fa-toggle-up" aria-hidden="true"></i></a>
+
+          <p class="quote"> " Do What You Love " </p>
+
+        <div class="interest">
+          <img src="images/grad.jpg" alt="Yura" class="interest-img">
+          <p class="interest-desc">
+          In 5th grade, I was obsessed with creating unique layouts for my MySpace page. In college, I picked it up again through Web Design 101. I was also an active member of <a href="https://likelion.net/en" target="_blank" class="lion">LikeLion</a>, a non-profit club where non-major students come together to learn programming. My affection for web development has been growing ever since.
+          </p>
+        </div>
+
+        <div class="interest">
+          <img src="images/prague.jpg" alt="Prague" class="interest-img">
+          <p class="interest-desc">
+          One of the best decisions I've made is choosing to spend a semester in Prague during my undergrad. While abroad, I studied history and cultural analysis of Czech media and communications, as well as Czech architectures. This view of the city and the castle is my favorite, taken from Charles Bridge. I have explored over 10 cities in Europe.
+         </p>
+        </div>
+
+        <div class="interest">
+          <img src="images/zombie.png" alt="Special Effects Makeup" class="interest-img">
+          <p class="interest-desc">
+          Also, I am an aspiring artist who loves hands-on, crafty activities. One of them is Special FX Make-Up. Above look was achieved by creating latex prosthetics using skin-safe molding materials and procedures. Not to mention that I'm a huge fan of the Walking Dead series! Model: Crystal Zhang
+         </p>
+        </div>
+
+      </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <div class="head">
+        <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+      </div>
+      <div class="container">
+        <div class="project">
+          <a href="#home" class="toggle-up"><i class="fa fa-toggle-up" aria-hidden="true"></i></a>
+          <p class="quote">
+            Write me!
+          </p>
+
+        <div class="contact-area">
+          <form action="https://formspree.io/yura.choi@nyu.edu" method="POST">
+              <input type="text" name="name" placeholder="Name">
+              <input type="email" name="_replyto" placeholder="Email">
+              <textarea name="message" placeholder="Your message"></textarea>
+              <input type="submit" value="Send to Yura">
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="footer">
+    <p class="footer-links">
+    <a href="https://github.com/yuralala8" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+    <a href="https://www.linkedin.com/in/yura-choi/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+           
+    <a href="https://medium.com/@yurachoi" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
+    </p>
+    <p>
+      Copyright &copy; Yura Choi 2017
+    </p>
+  </div>
+
+
+  </body>
+  </div>
+</div>
+    </div>
+
+</html>
