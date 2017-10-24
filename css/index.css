@@ -479,6 +479,19 @@ a:active {
   		flex-direction: column;
 	}
 
+	.header {
+		width: 80%;
+		margin: 0 auto;
+		height: 400px;
+		background-position: left top;
+		margin-top: 60px;
+		margin-bottom: 80px;
+	}
+
+	.header .container p {
+		font-size: 15px;
+	}
+
 
 
   .container {
