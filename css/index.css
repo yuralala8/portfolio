@@ -522,7 +522,7 @@ a:active {
 	  }
 
 	  .interest-img {
-	width: 100%; 
+	width: 90%; 
 	height: 310px;
 	object-fit: cover;
 }
@@ -560,11 +560,13 @@ a:active {
 	  .interest-box {
 	  	height: auto;
 	  	margin: 0 auto;
+	  	width: 100%;
 	  }
 
 	  .interest{
 	  	margin: 0 auto 50px;
 	  	float:none;
+	  	width: 100%;
 	  }
 
 	  .profile-para-head{
@@ -582,6 +584,7 @@ a:active {
 	  p.interest-desc {
 	  	font-size:14px;
 	  	text-align:justify;
+	  	width: 90%;
 	  }
 
 	  .profile-para {
