@@ -541,7 +541,8 @@ a:active {
 		}
 
 		.quote {
-			font-size: 31px;
+			font-size: 28px;
+			width: 100%;
 
 		}
 
