@@ -35,11 +35,17 @@ h1 {
 }
 
 .container {
-  width: 975px;
+  width: 1200px;
   margin: 0 auto;
   font-weight: bold;
   font-size: 23px;
   font-family: candara;
+}
+
+@media (max-width:800px) {
+  .container {
+    width:975px;/*The width is 975px, when the viewport is 800px or smaller*/
+  }
 }
 
 .header {
