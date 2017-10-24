@@ -442,7 +442,20 @@ a:active {
 }
 
 
-@media (max-width:400px) {
+
+
+
+
+
+
+
+
+
+
+/************* mobile size************/
+
+
+@media (max-width:500px) {
 	.nav {
 		height: 200px;
 	}
