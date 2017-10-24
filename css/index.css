@@ -524,6 +524,14 @@ a:active {
 	  	font-size: 20px;
 	  }
 
+	  .fa.fa-github-square{
+	  	font-size: 15px;
+	  }
+
+	  .link:link {
+	  	font-size:12px;
+	  }
+
 	  .fa.fa-code {
 		font-size: 25px;
 		}
