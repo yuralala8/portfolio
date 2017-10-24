@@ -440,3 +440,38 @@ a:active {
 	color: black;
 	background-color: white;
 }
+
+
+@media (max-width:400px) {
+	.nav {
+		height: 200px;
+	}
+
+	h1 {
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	li {
+		float:none;
+		padding-left: 0px;
+		font-size:15px;
+	}
+
+	ul {
+		margin-right: 0px;
+	}
+
+
+
+  .container {
+    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
+  }
+  .img {
+  	width: 100%;
+  }
+  .profile {
+  	width: 100%;
+  }
+
+}
