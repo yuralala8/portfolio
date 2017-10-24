@@ -541,9 +541,8 @@ a:active {
 		}
 
 		.quote {
-			font-size: 25px;
-		
-
+			font-size: 26px;
+			padding-bottom: 40px;
 		}
 
 	  .profile-title {
@@ -579,6 +578,18 @@ a:active {
 
 	  .links{
 	  	width: 100%;
+	  }
+
+	  input[type=text], select {
+	  	width:70%;
+	  }
+
+	  input[type=email], select{
+	  	width:70%;
+	  }
+
+	  textarea, select {
+	  	width: 70%;
 	  }
 
 }
