@@ -450,6 +450,7 @@ a:active {
 	h1 {
 		text-align: center;
 		padding-left: 0px;
+		clear:both;
 	}
 
 	li {
