@@ -450,7 +450,7 @@ a:active {
 	h1 {
 		text-align: center;
 		padding-left: 0px;
-		clear:both;
+		float: none;
 	}
 
 	li {
@@ -459,8 +459,24 @@ a:active {
 		font-size:15px;
 	}
 
+	ul li:first-child {
+		order: 5;
+	}
+
+	ul li:nth-child(2) {
+	  order: 4;
+	}
+	ul li:nth-child(3) {
+	  order: 3;
+	}
+	ul li:nth-child(4) {
+	  order: 2;
+	}
+
 	ul {
 		margin-right: 0px;
+		display: flex;
+  		flex-direction: column;
 	}
 
 
