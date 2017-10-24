@@ -50,7 +50,7 @@ h1 {
 
 @media (max-width:600px) {
   .container {
-    width:400px;/*The width is 300px, when the viewport is 800px or smaller*/
+    width:430px;/*The width is 430px, when the viewport is 800px or smaller*/
   }
 }
 
