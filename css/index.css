@@ -35,7 +35,7 @@ h1 {
 }
 
 .container {
-  width: 1200px;
+  width: 50%;
   margin: 0 auto;
   font-weight: bold;
   font-size: 23px;
@@ -45,6 +45,12 @@ h1 {
 @media (max-width:800px) {
   .container {
     width:975px;/*The width is 975px, when the viewport is 800px or smaller*/
+  }
+}
+
+@media (max-width:600px) {
+  .container {
+    width:400px;/*The width is 300px, when the viewport is 800px or smaller*/
   }
 }
 
