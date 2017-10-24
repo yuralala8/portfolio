@@ -55,6 +55,11 @@ h1 {
   margin-top: 50px;
 }
 
+.interest-box {
+	margin: 0 auto;
+	height: 500px;
+}
+
 
 h2 {
   text-align: center;
