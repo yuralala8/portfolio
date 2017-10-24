@@ -510,6 +510,7 @@ a:active {
 
 	  .title{
 	  	width:100%;
+	  	font-size:25px;
 	  }
 
 	  .para {
@@ -566,6 +567,7 @@ a:active {
 	  	text-align: center;
 	  	font-size:18px;
 	  }
+
 
 	  .fa.fa-youtube-play{
 	  	font-size:25px;
