@@ -515,6 +515,7 @@ a:active {
 
 	  .para {
 	  	width: 100%;
+	  	font-size: 14px;
 	  }
 
 	  .project {
@@ -549,7 +550,7 @@ a:active {
 
 		.quote {
 			font-size: 25px;
-			padding-bottom: 40px;
+			padding-bottom: 20px;
 		}
 
 	  .profile-title {
@@ -601,15 +602,19 @@ a:active {
 	  }
 
 	  input[type=text], select {
-	  	width:70%;
+	  	width:80%;
 	  }
 
 	  input[type=email], select{
-	  	width:70%;
+	  	width:80%;
 	  }
 
 	  textarea, select {
-	  	width: 70%;
+	  	width:80%;
+	  }
+
+	  input[type=submit] {
+	  	width: 80%;
 	  }
 
 }
