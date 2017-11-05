@@ -238,6 +238,9 @@ text-align: center;
 .img {
 	float:left;
 	border-radius: 8px;
+	height: 280px;
+	object-fit: none;
+	width: 480px;
 }
 
 .profile {
@@ -515,9 +518,12 @@ a:active {
 	  .container {
 	    width:100%;/*The width is 100%, when the viewport is 800px or smaller*/
 	  }
+
 	  .img {
+	  	object-fit: contain;
 	  	width: 100%;
 	  }
+
 	  .profile {
 	  	width: 100%;
 	  }
