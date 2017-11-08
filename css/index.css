@@ -1,3 +1,6 @@
+@media (max-width:1200px) {
+
+
 /*CSS for index page*/
 
 .nav {
@@ -445,7 +448,10 @@ a:active {
 	background-color: white;
 }
 
+}
 
+
+/************* larger monitor ************/
 
 
 
