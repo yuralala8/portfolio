@@ -40,11 +40,12 @@
   });
   </script>
   <script>
+  $().ready(
   function $buo_f(){
         var e = document.createElement("script");
         e.src = "//browser-update.org/update.min.js";
         document.body.appendChild(e);
-      };
+      });
    
       if (/msie|trident|edge/i.exec(window.navigator.userAgent) !== null) {
           var $buoop = {
