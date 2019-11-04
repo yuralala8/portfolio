@@ -40,7 +40,6 @@
   });
   </script>
   <script>
-  $().ready(function(){
     function $buo_f(){
           var e = document.createElement("script");
           e.src = "//browser-update.org/update.min.js";
@@ -58,9 +57,9 @@
                 test: true
             };
           console.log("this message should run!!")
-          $buo_f();
+          try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+          catch(e){window.attachEvent("onload",$buo_f)}
         };
-  })
 
   </script>
 
