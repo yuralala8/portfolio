@@ -1,11 +1,11 @@
 /*CSS for index page*/
 
 .nav {
-  width:100%;
+  width:50%;
   height:50px;
   background-color:white;
-  position:fixed;
   top:0;
+  float:right;
 }
 
 li {
@@ -29,10 +29,10 @@ ul {
 
 h1 {
   text-align:left;
+  width:50%;
   padding-left:50px;
   color: #001a33;
   font-size: 36px;
-  margin-top:50px;
   font-family: 'Cedarville Cursive', cursive;
 }
 
@@ -53,7 +53,7 @@ h1 {
   font-size: 18px;
   text-align:center;
   color: white;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .interest-box {
@@ -71,7 +71,7 @@ h2 {
 }
 
 .quote {
-text-align: center;
+  text-align: center;
   color: #00264d;
   font-size: 50px;
   padding-top: 20px;
@@ -81,21 +81,20 @@ text-align: center;
 .section {
   width:100%;
   background-color:white;
-  padding-bottom:80px;
+  padding-bottom:50px;
   overflow:hidden;
 }
 
-#about {
+th, td {
+  padding: 20px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
 }
 
-#inspirations {
-
+.work-details {
+  font-size: 15px;
+  margin-top: 5px;
 }
-
-#contact {
-
-}
-
 
 .image-desc {
   font-size:0.7em;
@@ -232,7 +231,7 @@ text-align: center;
     content: "";
     clear: both;
     display: table;
-    padding-bottom:5%;
+    padding-bottom:3%;
 }
 
 .img {
@@ -287,6 +286,12 @@ p.interest-desc {
 }
 
 .fa.fa-code {
+	font-size: 30px;
+	padding: 30px 30px 30px 12%;
+	color:#001a33;
+}
+
+.fa.fa-archive {
 	font-size: 30px;
 	padding: 30px 30px 30px 12%;
 	color:#001a33;
@@ -361,7 +366,7 @@ p.interest-desc {
 	text-align: center;
 }
 
-input[type=text], select {
+input, select {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -369,16 +374,7 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-}
-
-input[type=email], select {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    font-family: monospace;
 }
 
 textarea, select {
@@ -444,7 +440,6 @@ a:active {
 	color: black;
 	background-color: white;
 }
-
 
 /************* mobile size************/
 
