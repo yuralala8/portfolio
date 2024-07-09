@@ -482,12 +482,13 @@ a:active {
 	}
 
 	.header {
-		width: 85%;
+		/* width: 85%;
 		margin: 0 auto;
 		height: 400px;
 		background-position: left top;
 		margin-top: 60px;
-		margin-bottom: 80px;
+		margin-bottom: 80px; */
+    display: none;
 	}
 
 	.header .container p {
